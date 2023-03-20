@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/ReactiveObjC"]
+	path = Carthage/Checkouts/ReactiveObjC
+	url = https://github.com/unnoo/ReactiveObjC.git
+[submodule "Carthage/Checkouts/ReactiveSwift"]
+	path = Carthage/Checkouts/ReactiveSwift
+	url = https://github.com/unnoo/ReactiveSwift.git
