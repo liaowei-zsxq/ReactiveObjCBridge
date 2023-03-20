@@ -1,5 +1,0 @@
-github "Quick/Nimble" "v8.1.2"
-github "Quick/Quick" "v2.2.1"
-github "jspahrsummers/xcconfigs" "d0f8992afad45262cfe3a3cf512e7127fdcf296c"
-github "unnoo/ReactiveObjC" "639a47f67f61e32b148b114dbc8d7a36ab4a9845"
-github "unnoo/ReactiveSwift" "e5b2247acaa3f972104512a55472de5409b54df6"
