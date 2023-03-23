@@ -143,7 +143,7 @@ extension RACScheduler {
 	///
 	/// - returns: A `RACScheduler` that schedules blocks to `scheduler`.
 	public convenience init(_ scheduler: Scheduler) {
-		self.init(racSwiftScheduler: RACSwiftScheduler(wrapping: scheduler))
+		self.init(RACSwiftScheduler(wrapping: scheduler))
 	}
 
 	/// Create a `RACScheduler` that wraps the given scheduler.
@@ -153,7 +153,7 @@ extension RACScheduler {
 	///
 	/// - returns: A `RACScheduler` that schedules blocks to `scheduler`.
 	public convenience init(_ scheduler: DateScheduler) {
-		self.init(racSwiftScheduler: RACSwiftScheduler(wrapping: scheduler))
+		self.init(RACSwiftScheduler(wrapping: scheduler))
 	}
 }
 
